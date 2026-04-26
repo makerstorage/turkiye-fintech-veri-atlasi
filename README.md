@@ -4,19 +4,17 @@ TradingView Scanner API ile BIST hisselerinde alım ilgisi ve satış baskısı 
 
 ## Hızlı başlangıç — Colab (kurulum yok)
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<KULLANICI>/<REPO>/blob/main/bist_hacim_tarayici.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makerstorage/turkiye-fintech-veri-atlasi/blob/main/bist_hacim_tarayici.ipynb)
 
 Tek tıkla tarayıcıda aç, **Çalıştır → Tümünü çalıştır**. Google hesabı yeterli.
-
-> Repo'yu GitHub'a yükledikten sonra yukarıdaki URL'de `<KULLANICI>/<REPO>` kısmını kendi yolunla değiştir.
 
 ## Yerel kurulum — VSCode
 
 Gerekenler: Python 3.10+, VSCode + **Python** ve **Jupyter** eklentileri.
 
 ```bash
-git clone https://github.com/<KULLANICI>/<REPO>.git
-cd <REPO>
+git clone https://github.com/makerstorage/turkiye-fintech-veri-atlasi.git
+cd turkiye-fintech-veri-atlasi
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 code .
