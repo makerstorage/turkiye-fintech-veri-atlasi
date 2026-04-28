@@ -27,6 +27,7 @@ VSCode'da bir `.ipynb` dosyasını aç → sağ üstten **Select Kernel** → `.
 | `bist_hacim_tarayici.ipynb` | BIST · alım ilgisi & satış baskısı taraması (hacim) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makerstorage/turkiye-fintech-veri-atlasi/blob/main/bist_hacim_tarayici.ipynb) |
 | `bist_hacim_tarayici_referans.ipynb` | BIST hacim taraması · hızlı referans (curl dahil) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makerstorage/turkiye-fintech-veri-atlasi/blob/main/bist_hacim_tarayici_referans.ipynb) |
 | `bist_mum_formasyonu_tarayici.ipynb` | BIST · boğa & ayı mum formasyonu (candlestick) taraması | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makerstorage/turkiye-fintech-veri-atlasi/blob/main/bist_mum_formasyonu_tarayici.ipynb) |
+| `turkiye_ekonomik_takvim.ipynb` | Türkiye · makro ekonomik takvim (faiz, enflasyon, vb.) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makerstorage/turkiye-fintech-veri-atlasi/blob/main/turkiye_ekonomik_takvim.ipynb) |
 
 ## Katkı · Yeni Notebook Ekleme
 
