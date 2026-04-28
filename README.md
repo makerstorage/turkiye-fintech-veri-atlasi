@@ -1,12 +1,10 @@
-# BIST Hacim Tarayıcısı
+# Türkiye Fintech Veri Atlası
 
-TradingView Scanner API ile BIST hisselerinde alım ilgisi ve satış baskısı taraması.
+Türkiye finans piyasası (BIST, döviz, kripto, makro) için **Jupyter notebook** koleksiyonu. Her notebook bağımsız çalışır; bir konuyu uçtan uca gösterir: veri kaynağı, istek, yanıt, örnek tarama.
 
 ## Hızlı başlangıç — Colab (kurulum yok)
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makerstorage/turkiye-fintech-veri-atlasi/blob/main/bist_hacim_tarayici.ipynb)
-
-Tek tıkla tarayıcıda aç, **Çalıştır → Tümünü çalıştır**. Google hesabı yeterli.
+Aşağıdaki rozetlerden bir notebook'u tek tıkla aç, **Çalıştır → Tümünü çalıştır**. Google hesabı yeterli.
 
 ## Yerel kurulum — VSCode
 
@@ -20,9 +18,24 @@ python3 -m venv .venv
 code .
 ```
 
-VSCode'da `bist_hacim_tarayici.ipynb` dosyasını aç → sağ üstten **Select Kernel** → `.venv/bin/python`'u seç → oynat tuşuna bas.
+VSCode'da bir `.ipynb` dosyasını aç → sağ üstten **Select Kernel** → `.venv/bin/python`'u seç → oynat tuşuna bas.
+
+## Notebook'lar
+
+| Notebook | Konu | Colab |
+|----------|------|-------|
+| `bist_hacim_tarayici.ipynb` | BIST · alım ilgisi & satış baskısı taraması (hacim) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makerstorage/turkiye-fintech-veri-atlasi/blob/main/bist_hacim_tarayici.ipynb) |
+| `bist_hacim_tarayici_referans.ipynb` | BIST hacim taraması · hızlı referans (curl dahil) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makerstorage/turkiye-fintech-veri-atlasi/blob/main/bist_hacim_tarayici_referans.ipynb) |
+| `bist_mum_formasyonu_tarayici.ipynb` | BIST · boğa & ayı mum formasyonu (candlestick) taraması | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makerstorage/turkiye-fintech-veri-atlasi/blob/main/bist_mum_formasyonu_tarayici.ipynb) |
+
+## Katkı · Yeni Notebook Ekleme
+
+1. Yeni `.ipynb` dosyasını repo köküne ekle (anlamlı dosya adı: `bist_<konu>_tarayici.ipynb` gibi).
+2. Notebook'un üstüne kısa bir başlık + tek paragraflık açıklama yaz.
+3. Yeni bağımlılık varsa `requirements.txt`'ye ekle.
+4. Üstteki tabloya bir satır ekle (Colab rozetiyle birlikte).
 
 ## Dosyalar
 
-- `bist_hacim_tarayici.ipynb` — notebook
+- `*.ipynb` — notebook'lar
 - `requirements.txt` — Python bağımlılıkları
