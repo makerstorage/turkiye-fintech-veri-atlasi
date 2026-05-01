@@ -30,6 +30,7 @@ VSCode'da bir `.ipynb` dosyasını aç → sağ üstten **Select Kernel** → `.
 | `turkiye_ekonomik_takvim.ipynb` | Türkiye · makro ekonomik takvim (faiz, enflasyon, vb.) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makerstorage/turkiye-fintech-veri-atlasi/blob/main/turkiye_ekonomik_takvim.ipynb) |
 | `altinkaynak_fiyat_servisi.ipynb` | Altınkaynak · döviz + altın/gümüş anlık özet & detay | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makerstorage/turkiye-fintech-veri-atlasi/blob/main/altinkaynak_fiyat_servisi.ipynb) |
 | `is_yatirim_hisse_tarayici.ipynb` | İş Yatırım · parametrik hisse tarayıcı (getiri pot., hedef fiyat) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makerstorage/turkiye-fintech-veri-atlasi/blob/main/is_yatirim_hisse_tarayici.ipynb) |
+| `kap_bildirim_listesi.ipynb` | KAP · özel durum, finansal rapor ve duyuru bildirim listesi | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/makerstorage/turkiye-fintech-veri-atlasi/blob/main/kap_bildirim_listesi.ipynb) |
 
 ## Katkı · Yeni Notebook Ekleme
 
